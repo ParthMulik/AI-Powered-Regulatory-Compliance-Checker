@@ -1,0 +1,95 @@
+# Python environments and cache
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.python-version
+.pytest_cache/
+.cache/
+
+# Environment variables and secrets
+.env
+.env.*
+*.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Service account and credentials
+service_account.json
+*_credentials.json
+*.pem
+*.key
+
+# Database files
+*.db
+contract_history.db
+*.sqlite
+*.sqlite3
+
+# Excel, PDF and document files
+*.xlsx
+contract_analysis.xlsx
+*.pdf
+*.doc
+*.docx
+*.rtf
+
+# Machine Learning and embeddings
+*.pt
+*.pth
+*.bin
+*.onnx
+models/
+embeddings/
+sentence-transformers/
+
+# IDE settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+.settings/
+
+# Temporary and processing files
+temp/
+tmp/
+*.tmp
+*.temp
+*.swp
+.DS_Store
+*.bak
+.~*
+
+# Log files
+*.log
+logs/
+log/
+
+# Testing and coverage
+.coverage
+coverage/
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Build and distribution
+build/
+dist/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.so
+
+# Output and reports
+output/
+reports/
+exports/
+analysis_results/
